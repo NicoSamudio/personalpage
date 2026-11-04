@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#07142c" />
+  <meta name="description" content="Portfolio de Nicolás Samudio, Analista de Sistemas con experiencia en soporte IT, integraciones e-commerce, SQL Server y análisis funcional." />
+  <meta property="og:title" content="Nicolás Samudio | Técnico IT · QA · Analista Funcional" />
+  <meta property="og:description" content="Experiencia en soporte técnico, integraciones e-commerce, análisis funcional y SQL Server." />
+  <meta property="og:type" content="website" />
+  <title>Nicolás Samudio | Portfolio IT</title>
+  <link rel="icon" href="assets/favicon-v2.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="config.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <svg class="svg-defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-brand" viewBox="0 0 48 48">
+      <rect x="4" y="4" width="40" height="40" rx="12" fill="currentColor" opacity=".14" stroke="none" />
+      <path d="M16 33V15l16 18V15" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" />
+      <circle cx="36.5" cy="12" r="2.8" fill="#fff" stroke="none" />
+    </symbol>
+    <symbol id="i-code" viewBox="0 0 24 24"><path d="m8 4-7 8 7 8M16 4l7 8-7 8M14 2 10 22" /></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="7" r="4"/><path d="M4 22v-2a8 8 0 0 1 16 0v2H4Z"/></symbol>
+    <symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="15" rx="2"/><path d="M8 7V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v3M2 13h20M10 13v2h4v-2"/></symbol>
+    <symbol id="i-building" viewBox="0 0 24 24"><rect x="3" y="7" width="8" height="15"/><rect x="11" y="2" width="10" height="20"/><path d="M6 11h2M6 15h2M14 6h4M14 10h4M14 14h4M14 18h4M2 22h20"/></symbol>
+    <symbol id="i-headphones" viewBox="0 0 24 24"><path d="M3 13v-2a9 9 0 0 1 18 0v2M3 13h3v7H4a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2ZM21 13h-3v7h2a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2Z"/></symbol>
+    <symbol id="i-cart" viewBox="0 0 24 24"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 2h3l3.5 14h13L23 6H5"/></symbol>
+    <symbol id="i-database" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.7 4 3 9 3s9-1.3 9-3V5M3 12c0 1.7 4 3 9 3s9-1.3 9-3"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="18" rx="2"/><path d="M7 2v5M17 2v5M2 10h20M7 14h3M14 14h3M7 18h3"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m3 6 9 7 9-7"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 2v14m-5-5 5 5 5-5M3 17v4h18v-4"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M5 5l14 14M19 5 5 19"/></symbol>
+  </svg>
+
+  <header class="topbar" id="inicio">
+    <div class="nav-wrap">
+      <a class="brand" href="#inicio" aria-label="Nicolás Samudio, volver al inicio"><span>Nicolás Samudio</span></a>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Abrir menú" aria-controls="main-nav" aria-expanded="false"><svg class="icon"><use href="#i-menu"/></svg></button>
+      <nav id="main-nav" class="main-nav" aria-label="Navegación principal">
+        <a href="#sobre-mi">Sobre mí</a><a href="#experiencia">Experiencia</a><a href="#tecnologias">Tecnologías</a><a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-photo" role="img" aria-label="Retrato de Nicolás en un espacio de trabajo tecnológico"></div>
+      <div class="hero-slice"></div>
+      <div class="hero-content container">
+        <div class="hero-copy">
+          <span class="blue-line" aria-hidden="true"></span>
+          <h1 id="hero-title">Técnico IT <em>| </em> Soporte y Sistemas</em><br class="hero-break"/> </h1>
+          <p>Soy Técnico en Soporte IT e Integrador E-commerce, con experiencia en sistemas de gestión, integraciones entre plataformas y diagnóstico técnico mediante SQL. Actualmente estudio la Tecnicatura Universitaria en Programación en la UTN Avellaneda, orientando mi formación al desarrollo de software.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary js-email" href="#contacto"><svg class="icon"><use href="#i-mail"/></svg>Contactarme</a>
+            <a class="btn btn-outline" href="docs/CV_Nicolas_Samudio.pdf" download><svg class="icon"><use href="#i-download"/></svg>Descargar CV</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="content-background">
+      <section class="section container" id="sobre-mi" aria-labelledby="about-title">
+        <div class="section-heading"><div class="section-icon"><svg class="icon"><use href="#i-user"/></svg></div><div><h2 id="about-title">Sobre mí</h2><span class="small-line"></span></div></div>
+        <div class="glass-panel about-panel"><p>Me desempeño en el área de soporte técnico y funcional, trabajando principalmente con Dragonfish y sus integraciones con plataformas como Mercado Libre y Tiendanube.</p><p>A lo largo de mi experiencia desarrollé conocimientos en análisis y diagnóstico de incidentes, consultas SQL, gestión de bases de datos y seguimiento de procesos de integración. Me interesa comprender el funcionamiento de los sistemas, identificar problemas y encontrar soluciones que mejoren los procesos operativos.</p><p>Actualmente estoy ampliando mis conocimientos en programación, desarrollo de software y tecnologías informáticas. Busco seguir creciendo profesionalmente, incorporando nuevas herramientas y conocimientos que me permitan evolucionar hacia áreas como el desarrollo backend y la ciberseguridad.</p></div>
+      </section>
+
+      <section class="section container tech-section" id="tecnologias" aria-labelledby="tech-title">
+        <div class="section-heading"><div class="section-icon"><svg class="icon"><use href="#i-code"/></svg></div><div><h2 id="tech-title">Tecnologías</h2><span class="small-line"></span></div></div>
+        <div class="tech-grid">
+          <div class="tech-card"><img src="assets/sql.svg" alt="" loading="lazy"><span>SQL</span></div>
+          <div class="tech-card"><img src="assets/java.svg" alt="" loading="lazy"><span>Java</span></div>
+          <div class="tech-card"><img src="assets/python.svg" alt="" loading="lazy"><span>Python</span></div>
+          <div class="tech-card"><img src="assets/html.svg" alt="" loading="lazy"><span>HTML</span></div>
+          <div class="tech-card"><img src="assets/css.svg" alt="" loading="lazy"><span>CSS</span></div>
+          <div class="tech-card"><img src="assets/postman.svg" alt="" loading="lazy"><span>Postman</span></div>
+        </div>
+      </section>
+
+      <section class="section container experience-section" id="experiencia" aria-labelledby="experience-title">
+        <div class="section-heading"><div class="section-icon"><svg class="icon"><use href="#i-briefcase"/></svg></div><div><h2 id="experience-title">Experiencia</h2><span class="small-line"></span></div></div>
+        <article class="experience-panel glass-panel">
+          <header class="job-header"><div class="job-company"><div class="job-icon"><svg class="icon"><use href="#i-building"/></svg></div><h3>Zoo Logic<span>Sistemas de Gestión para Puntos de Venta</span></h3></div><div class="job-divider"></div><strong class="job-role">Dragonfish Color y Talle.</strong><span class="job-date"><svg class="icon"><use href="#i-calendar"/></svg>Octubre 2022 - Actualidad</span></header>
+          <div class="timeline">
+            <div class="timeline-rail" aria-hidden="true"><span></span><span></span><span></span></div>
+            <div class="timeline-items">
+              <div class="timeline-card"><div class="timeline-icon"><svg class="icon"><use href="#i-headphones"/></svg></div><div><h4>Mesa de Ayuda / Soporte Técnico</h4><p>Atención y resolución de incidencias, soporte a usuarios y seguimiento de casos.</p></div></div>
+              <div class="timeline-card"><div class="timeline-icon"><svg class="icon"><use href="#i-cart"/></svg></div><div><h4>Integraciones E-commerce</h4><p>Implementación, configuración y soporte de integraciones entre Dragonfish y las plataformas de comercio electrónico Mercado Libre y Tienda Nube.</p></div></div>
+              <div class="timeline-card"><div class="timeline-icon"><svg class="icon"><use href="#i-database"/></svg></div><div><h4>Análisis funcional y diagnóstico con SQL Server</h4><p>Análisis de requerimientos, diagnóstico de consultas y procesos, y extracción de información para la toma de decisiones.</p></div></div>
+            </div>
+          </div>
+        </article>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer" id="contacto">
+    <div class="footer-glow"></div>
+    <div class="container footer-inner">
+      <div class="contact-intro"><div class="contact-copy"><h2>¿Trabajamos juntos?</h2><p>Estoy abierto a nuevos desafíos, proyectos y oportunidades en el mundo IT. ¡Conectemos!<br class="desktop-only"/> </p></div></div>
+      <div class="socials"><a class="social-button js-linkedin" href="#contacto"><img class="social-icon linkedin-icon" src="assets/linkedin.svg" alt="" width="22" height="22" />LinkedIn</a><a class="social-button js-gmail" href="#contacto"><span class="gmail-icon" aria-hidden="true"><img src="assets/gmail.svg" alt="" width="22" height="17" /></span>Gmail</a><a class="social-button js-github" href="#contacto"><img class="social-icon github-icon" src="assets/github.svg" alt="" width="24" height="24" />GitHub</a></div>
+      <div class="footer-bottom"><a class="footer-brand" href="#inicio">Nicolás Samudio</a><small>© <span id="current-year">2026</span> Nicolás Samudio. Todos los derechos reservados.</small></div>
+    </div>
+  </footer>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

@@ -1,40 +1,46 @@
-PORTFOLIO DE NICOLÁS SAMUDIO — SITIO WEB ESTÁTICO
-================================================
+# ¡Buenas! Soy Nicolás Samudio 👋
 
-CONTENIDO
-- index.html                  Página principal.
-- styles.css                  Todos los estilos, responsive para celular/tablet/PC.
-- script.js                   Menú móvil, año automático y botones de contacto.
-- config.js                   Configuración de email, LinkedIn y WhatsApp.
-- assets/nicolas-hero-hd.webp Foto HD utilizada en el encabezado (encuadre superior).
-- assets/nicolas-hero.webp    Foto original de respaldo del encabezado.
-- assets/gmail.svg            Icono oficial de Gmail.
-- assets/whatsapp.svg         Icono oficial de WhatsApp.
-- assets/*.svg                Iconos de tecnologías y favicon (archivos locales).
-- assets/diseno-referencia.webp Imagen de referencia del diseño completo.
-- docs/Nicolas_Samudio_CV.pdf Curriculum resumido generado a partir del texto disponible.
+Primero que nada, gracias por entrar a mi GitHub. No sé muy bien cómo llegaste hasta acá, pero ya que estás, te cuento un poquito sobre mí.
 
-PUBLICAR EN HOSTING / SERVIDOR
-1. Descomprimir el ZIP.
-2. Subir TODO el contenido de la carpeta portfolio_nicolas a la carpeta pública
-   del servidor: public_html, www, htdocs o la que indique el proveedor.
-3. Verificar que index.html quede en la raíz pública.
-4. Abrir el dominio. No hace falta Node.js, PHP, instalación ni base de datos.
+Me llamo Nicolás, soy Técnico IT, me gusta la programación y actualmente estoy buscando trabajo de ello. Así que, si sos reclutador y estás leyendo esto, arrancamos bastante bien. 
 
-CONFIGURAR CONTACTO (IMPORTANTE)
-Abrir config.js y completar los tres valores:
-  email: 'correo@ejemplo.com',
-  linkedin: 'https://www.linkedin.com/in/usuario/',
-  whatsapp: '5491123456789'
-Si quedan vacíos, los botones muestran un mensaje y no dirigen a datos falsos.
+Me gusta aprender cosas nuevas, investigar, resolver problemas y meter mano hasta entender cómo funcionan las cosas. A veces sale bien a la primera, otras veces termino con 35 pestañas abiertas buscando por qué algo que debería funcionar... no funciona. Pero bueno, supongo que de eso se trata un poco todo esto.
 
-ACTUALIZAR EL CV
-Reemplazar docs/Nicolas_Samudio_CV.pdf por el CV definitivo cuando esté listo.
-El PDF incluido contiene un resumen de la experiencia visible en el sitio;
-no incluye teléfono, correo, enlaces ni información personal no suministrada.
+No voy a decirte que soy el mejor programando, ni que sé de todo, porque claramente no es así. Tengo muchísimo por aprender.
 
-NOTAS
-- Las fuentes Poppins se cargan de Google Fonts; si no hay conexión, se usa Arial.
-- Las imágenes y los íconos se alojan localmente en assets.
-- Diseño preparado para distintos tamaños de pantalla.
-- No publicar información de contacto ficticia.
+Tampoco soy muy bueno con el diseño. De hecho, si llegaste a ver mi portfolio, probablemente te hayas dado cuenta de que le puse bastante voluntad. Por suerte, la voluntad todavía no se cobra. 😂
+
+Hablando un poco enserio, estoy haciendo lo mejor que puedo para crecer profesionalmente, mejorar mis conocimientos y encontrar una oportunidad donde pueda demostrar lo que sé y, principalmente, todo lo que estoy dispuesto a aprender.
+
+Hay algo que tengo bastante claro: para mí, las ganas de mejorar son tan importantes como los conocimientos que uno tiene. Porque podés saber muchísimo, pero si no tenés ganas de seguir aprendiendo, en algún momento te quedás donde estás. Y yo no quiero quedarme quieto.
+
+Obviamente, las ganas por sí solas no hacen que uno sepa programar, pero son las que te llevan a sentarte, estudiar, equivocarte veinte veces y volver a intentarlo. Y ganas, por suerte, me sobran.
+
+### ¿Qué estoy buscando?
+
+La respuesta corta es: trabajo.
+
+Pero también estoy abierto a proyectos, colaboraciones, capacitaciones, cursos o cualquier oportunidad que me permita seguir creciendo.
+
+Puede ser algo chiquito, algo grande, algo que ya sepa hacer o algo que me obligue a aprender desde cero.
+
+No te voy a prometer que voy a saber resolver absolutamente todo, pero sí que voy a poner de mi parte para encontrar la manera.
+
+Al final del día, lo que busco es una oportunidad para seguir aprendiendo, aportar lo que pueda y demostrar que vale la pena apostar por alguien que tiene ganas de progresar.
+
+Para ir cerrando... Si llegaste hasta acá, primero que nada, gracias.
+
+Sé que un README no es precisamente la lectura más entretenida del mundo, así que espero al menos haberte sacado una sonrisa.
+
+Y si después de leer todo esto pensás que puedo encajar en algún proyecto, equipo o simplemente querés charlar sobre alguna oportunidad, me encantaría que te contactes conmigo.
+
+Gracias nuevamente por tomarte el tiempo de conocerme un poquito.
+
+Ojalá podamos llegar a buen puerto. Y si no, por lo menos espero que te hayas llevado una buena impresión.
+
+Un abrazo y gracias por pasar! 🚀
+
+Nicolás Samudio
+
+PD: Si encontrás algún error en mis proyectos, avisame con cariño. Estoy buscando trabajo, no que me destruyan la autoestima jeje
+
